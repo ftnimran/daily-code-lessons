@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = () => {
     return (
-        <div>
+        <div className='card'>
             <h1>Hello Card Component</h1>
         </div>
     )
