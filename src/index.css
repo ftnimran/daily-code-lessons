@@ -12,19 +12,3 @@ body {
   background-color: #081b29;
   color: #ededed;
 }
-
-.card {
-  width: 300px;
-  height: 200px;
-  background-color: #1e2a38;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  /* flex-direction: column; */
-  /* margin: 0 auto; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
