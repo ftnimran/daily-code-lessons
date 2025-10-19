@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
+      <div className='card-container'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </>
   )
 }

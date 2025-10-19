@@ -12,3 +12,20 @@ body {
   background-color: #081b29;
   color: #ededed;
 }
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+}
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #0f2a40;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
