@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './camponents/Card.jsx'
 import Navbar from './camponents/Navbar.jsx'
+import Hero from './camponents/Hero.jsx'
 
 
 
@@ -11,8 +12,9 @@ function App() {
   return (
     <>  
         <Navbar />
-        <Card />
-        <Card />
+        <Hero />
+        {/* <Card />
+        <Card /> */}
     </>
   )
 }
