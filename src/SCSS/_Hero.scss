@@ -3,4 +3,13 @@
   height: 100vh;
   background-color: #0f1c2a;
   padding: 0 8rem;
+  display: flex;
+  // align-items: center;  
+  justify-content: center;
+}
+.hero div {
+  height: 300px;
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #ededed;
 }
