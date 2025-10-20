@@ -40,4 +40,7 @@ body {
   color: #ededed;
   font-size: 1.5rem;
   border: 1px solid #ededed;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
 }
