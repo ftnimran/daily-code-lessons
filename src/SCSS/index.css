@@ -40,7 +40,6 @@ body {
   margin: 0 1.7rem;
   transition: 0.5s;
 }
-
 .navbar div a:hover {
   color: #1db954;
 }
