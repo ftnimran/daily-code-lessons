@@ -3,6 +3,7 @@ import './App.css'
 import Card from './camponents/Card.jsx'
 import Navbar from './camponents/Navbar.jsx'
 import Hero from './camponents/Hero.jsx'
+import Section from './camponents/section.jsx'
 
 
 
@@ -13,8 +14,7 @@ function App() {
     <>  
         <Navbar />
         <Hero />
-        {/* <Card />
-        <Card /> */}
+        <Section />
     </>
   )
 }
