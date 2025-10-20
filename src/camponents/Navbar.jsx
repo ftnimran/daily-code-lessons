@@ -3,8 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <header className="navbar">
-        <div></div>
-        <div></div>
+        <div>LOgo</div>
+        <div>Anchor</div>
     </header>
   )
 }
