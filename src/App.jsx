@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Card from './camponents/Card.jsx'
-import Navbar from './camponents/Navbar.jsx'
-import Hero from './camponents/Hero.jsx'
-import Section from './camponents/section.jsx'
+import Navbar from './components/Navbar.jsx'
+import Hero from './components/Hero.jsx'
+import Section from './components/Sections.jsx'
 
 
 
