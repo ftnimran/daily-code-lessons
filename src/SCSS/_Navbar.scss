@@ -7,7 +7,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    padding: 0 8rem;
+    padding: 0 10rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -15,14 +15,15 @@
     color: #ededed;
     font-size: 1.5rem;
     /* border: 1px solid #ededed; */
-    padding: 5px 10px;
+    // padding: 5px 10px;
     /* border-radius: 4px; */
 }
 
 .navbar div a {
     text-decoration: none;
     color: #ededed;
-    margin: 0 1.7rem;
+    // margin: 0 1.7rem;
+    margin-left: 2.5rem;
     transition: .5s;
 
     &:hover {
