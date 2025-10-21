@@ -5,8 +5,6 @@ const Section = () => {
     <section id='sections' className='sections'>
         <div>Section Div 1</div>
         <div>Section Div 2</div>
-         <div>Section Div 2</div>
-          <div>Section Div 2</div>
     </section>
   )
 }

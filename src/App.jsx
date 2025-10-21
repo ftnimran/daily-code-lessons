@@ -14,8 +14,8 @@ function App() {
     <>  
         <Navbar />
         <Hero />
-        <Sections />
-        <Footer />
+        {/* <Sections />
+        <Footer /> */}
     </>
   )
 }
