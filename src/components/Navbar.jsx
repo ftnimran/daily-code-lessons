@@ -6,7 +6,8 @@ const Navbar = () => {
         <header className="header">
             <a href="#" className='logo'>Logo</a>
 
-            <label htmlFor="#" className='icons'>
+            <input type="checkbox" id="check" />
+            <label htmlFor="check" className='icons'>
                 <i class='bx bx-menu' id='menu-icon'></i>
                 <i class='bx bx-x'id='close-icon'></i>
             </label>
