@@ -1,16 +1,22 @@
 import React from 'react'
+import 'boxicons'
 
 const Navbar = () => {
     return (
         <header className="header">
             <a href="#" className='logo'>Logo</a>
 
+            <label htmlFor="#" className='icons'>
+                <i class='bx bx-menu' id='menu-icon'></i>
+                <i class='bx bx-x'id='close-icon'></i>
+            </label>
+
             <nav className="navbar">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Project</a>
-                <a href="#">Contect</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Project</a>
+                <a href="#contect">Contect</a>
             </nav>
         </header>
     )
