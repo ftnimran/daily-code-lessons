@@ -1,14 +1,24 @@
 /* ====================== RESPONSIVE STYLE ====================== */
 
 @media (max-width: 767px) {
+
   .menu-btn {
     display: block;
+  }
+
+  header {
+    padding: 0.15rem 5%;
+  }
+
+  .logo {
+    height: 3rem;
+    width: 3rem;
   }
 
   header nav {
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -400px;
     width: 50%;
     height: 100%;
     background: rgba(30, 30, 30, 0.5);
@@ -31,7 +41,7 @@
     top: 18px;
     right: 20px;
     font-size: 26px;
-    margin: 0.15rem 11%;
+    // margin: 0.15rem 11%;
     color: white;
     cursor: pointer;
     background: none;
@@ -76,9 +86,10 @@
   /* ====================Home Section==================== */
 
   .home {
-    padding: 170px 20px 40px;
+    padding: 70px 5% 70px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
   }
 
   .home-content h3 {
@@ -97,12 +108,15 @@
   }
 
   .home-content p {
-  font-size: 1.1rem;}
+    font-size: 1.1rem;
+  }
 
 
 
   .home-content img {
-    display: none;
+    height: 13rem;
+    width: 13rem;
+    // padding: ;
   }
 
 }
