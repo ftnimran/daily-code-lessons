@@ -209,6 +209,14 @@ header nav a:hover {
   animation-delay: 0.7s;
 }
 
+@media (max-width: 992px) {
+  header {
+    padding: 0.15rem 5%;
+  }
+  .home {
+    padding: 70px 5% 0;
+  }
+}
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
