@@ -17,6 +17,7 @@ body {
     font-family: 'poppins', sans-serif;
     color: #ededed;
     overflow-x: hidden;
+    // user-select: none
 }
 
 @import './_Navbar.scss';
