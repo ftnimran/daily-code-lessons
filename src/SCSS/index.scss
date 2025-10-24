@@ -12,13 +12,16 @@ html {
 }
 
 body {
-    min-height: 100vh;
+    // min-height: 100vh;
     background-color: #081b29;
     font-family: 'poppins', sans-serif;
     color: #ededed;
+    overflow-x: hidden;
 }
 
-@import "./_Navbar.scss";
-@import "./_Hero.scss";
-@import "./_Sections.scss";
-@import "./_Footer.scss";
+@import './_Navbar.scss';
+// @import "./_Hero.scss";
+// @import "./_Sections.scss";
+// @import "./_Footer.scss";
+@import '_keyframesAnimation.scss';
+@import '_responsiveMobile.scss';
