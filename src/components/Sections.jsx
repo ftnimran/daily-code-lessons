@@ -4,7 +4,7 @@ import backGround2 from '../assets/image/background_image02.png'
 const Section = () => {
   return (
     <section id="about" class="about">
-      <div class="about-img">
+      {/* <div class="about-img">
         <img src={backGround2} />
       </div>
       <div class="about-text">
@@ -21,7 +21,7 @@ const Section = () => {
           requirements. This enables me to tailor my designs to meet their expectations and deliver a unique
           online presence that aligns with their brand identity..</p>
         <a href="#" class="btn-box">More About Me</a>
-      </div>
+      </div> */}
     </section>
   )
 }
