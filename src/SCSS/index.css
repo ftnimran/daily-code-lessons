@@ -210,61 +210,18 @@ header nav a:hover {
 
 .about {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: auto;
   padding: 70px 10% 0;
 }
 
 .section-title h2 {
   padding-top: 1rem;
   text-align: center;
-  font-size: 55px;
+  font-size: 45px;
 }
 .section-title h2 span {
   color: #0ef;
-}
-
-.about-container {
-  height: 80%;
-  width: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.about-text {
-  max-width: 58%;
-}
-
-.about-text {
-  height: 25rem;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about-img img {
-  height: 25rem;
-  width: 25rem;
-  border-radius: 50%;
-  box-shadow: 0 0 20px #0ef;
-  margin: auto 0;
-}
-
-.about-text h1 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #fff;
-  line-height: 1.2;
-  padding-bottom: 8px;
-}
-
-.about-text p {
-  color: aliceblue;
-  font-size: 20px;
-  line-height: 1.2;
-  padding-bottom: 20px;
 }
 
 .footer {
@@ -407,7 +364,7 @@ header nav a:hover {
   }
   /* ====================Home Section==================== */
   .home {
-    padding: 70px 5% 70px;
+    padding: 70px 5% 0;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -432,7 +389,4 @@ header nav a:hover {
     width: 13rem;
   }
   /* ====================About Section==================== */
-  .about-container {
-    flex-direction: column;
-  }
 }/*# sourceMappingURL=index.css.map */
