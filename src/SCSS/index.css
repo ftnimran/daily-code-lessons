@@ -212,11 +212,11 @@ header nav a:hover {
   width: 100%;
   min-height: 100vh;
   max-height: auto;
-  padding: 70px 10% 0;
+  padding: 70px 5% 0;
 }
 
 .section-title h2 {
-  padding-top: 1rem;
+  padding-top: 0.8rem;
   text-align: center;
   font-size: 45px;
 }
@@ -228,11 +228,11 @@ header nav a:hover {
   width: 100%;
   min-height: 100vh;
   max-height: auto;
-  padding: 70px 10% 0;
+  padding: 70px 5% 0;
 }
 
 .section-title h2 {
-  padding-top: 1rem;
+  padding-top: 0.8rem;
   text-align: center;
   font-size: 45px;
 }
@@ -244,11 +244,27 @@ header nav a:hover {
   width: 100%;
   min-height: 100vh;
   max-height: auto;
-  padding: 70px 10% 0;
+  padding: 70px 5% 0;
 }
 
 .section-title h2 {
-  padding-top: 1rem;
+  padding-top: 0.8rem;
+  text-align: center;
+  font-size: 45px;
+}
+.section-title h2 span {
+  color: #0ef;
+}
+
+.contact {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  padding: 70px 5% 0;
+}
+
+.section-title h2 {
+  padding-top: 0.8rem;
   text-align: center;
   font-size: 45px;
 }
@@ -421,4 +437,11 @@ header nav a:hover {
     width: 13rem;
   }
   /* ====================About Section==================== */
+  .section-title h2 {
+    padding-top: 0.8rem;
+    font-size: 30px;
+  }
+  .section-title h2 span {
+    color: #0ef;
+  }
 }/*# sourceMappingURL=index.css.map */
