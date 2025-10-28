@@ -1,12 +1,10 @@
-.about {
-    width: 100%;
-    min-height: 100vh;
-    max-height: auto;
-    padding: 70px 10% 0;
+.skills {
+    @include hwp;
     // display: flex;
     // align-items: center;
     // justify-content: space-between;
 }
+
 .section-title h2 {
     padding-top: 1rem;
     text-align: center;

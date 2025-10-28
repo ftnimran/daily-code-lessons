@@ -1,7 +1,7 @@
 import React from 'react'
 import backGround2 from '../assets/image/background_image02.png'
 
-const Section = () => {
+const About = () => {
   return (
     <section id="about" class="about">
 
@@ -15,4 +15,4 @@ const Section = () => {
   )
 }
 
-export default Section
+export default About

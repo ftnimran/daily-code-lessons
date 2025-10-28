@@ -224,6 +224,38 @@ header nav a:hover {
   color: #0ef;
 }
 
+.skills {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  padding: 70px 10% 0;
+}
+
+.section-title h2 {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 45px;
+}
+.section-title h2 span {
+  color: #0ef;
+}
+
+.projects {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  padding: 70px 10% 0;
+}
+
+.section-title h2 {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 45px;
+}
+.section-title h2 span {
+  color: #0ef;
+}
+
 .footer {
   width: 100%;
   height: 4rem;

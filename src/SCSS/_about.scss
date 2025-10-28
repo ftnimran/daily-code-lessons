@@ -1,0 +1,16 @@
+.about {
+    @include hwp;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+}
+
+.section-title h2 {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 45px;
+
+    span {
+        color: #0ef;
+    }
+}
