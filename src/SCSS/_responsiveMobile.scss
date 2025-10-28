@@ -2,6 +2,10 @@
 
 @media (max-width: 767px) {
 
+
+  /* ====================Navbar Section==================== */
+
+
   .menu-btn {
     display: block;
   }
@@ -118,5 +122,39 @@
     width: 13rem;
     // padding: ;
   }
+
+
+  /* ====================About Section==================== */
+
+
+  .about-container {
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
