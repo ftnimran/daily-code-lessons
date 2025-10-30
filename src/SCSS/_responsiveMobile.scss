@@ -120,10 +120,22 @@
   }
 
 
-
+  /* ====================About Section==================== */
 
   .section-title h2 {
     @include section-title-mobile;
   }
+
+
+
+
+
+
+  /* ====================Skills Section==================== */
+
+  .section-title h2 {
+    @include section-title-mobile;
+  }
+
 
 }
