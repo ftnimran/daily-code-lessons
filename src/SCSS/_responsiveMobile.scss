@@ -2,10 +2,6 @@
 
 @media (max-width: 767px) {
 
-
-  /* ====================Navbar Section==================== */
-
-
   .menu-btn {
     display: block;
   }
@@ -90,7 +86,7 @@
   /* ====================Home Section==================== */
 
   .home {
-    padding: 70px 5% 0;
+    padding: 70px 5% 70px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -122,57 +118,5 @@
     width: 13rem;
     // padding: ;
   }
-
-
-  /* ====================About Section==================== */
-
-
-  .section-title h2 {
-    @include section-title-mobile;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

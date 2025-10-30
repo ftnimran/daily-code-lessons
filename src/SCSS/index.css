@@ -208,85 +208,6 @@ header nav a:hover {
   transition: 1s ease;
 }
 
-.about {
-  width: 100%;
-  min-height: 100vh;
-  max-height: auto;
-  padding: 70px 5% 0;
-}
-
-.section-title h2 {
-  padding-top: 0.8rem;
-  text-align: center;
-  font-size: 45px;
-}
-.section-title h2 span {
-  color: #0ef;
-}
-
-.skills {
-  width: 100%;
-  min-height: 100vh;
-  max-height: auto;
-  padding: 70px 5% 0;
-}
-
-.section-title h2 {
-  padding-top: 0.8rem;
-  text-align: center;
-  font-size: 45px;
-}
-.section-title h2 span {
-  color: #0ef;
-}
-
-.projects {
-  width: 100%;
-  min-height: 100vh;
-  max-height: auto;
-  padding: 70px 5% 0;
-}
-
-.section-title h2 {
-  padding-top: 0.8rem;
-  text-align: center;
-  font-size: 45px;
-}
-.section-title h2 span {
-  color: #0ef;
-}
-
-.contact {
-  width: 100%;
-  min-height: 100vh;
-  max-height: auto;
-  padding: 70px 5% 0;
-}
-
-.section-title h2 {
-  padding-top: 0.8rem;
-  text-align: center;
-  font-size: 45px;
-}
-.section-title h2 span {
-  color: #0ef;
-}
-
-.footer {
-  width: 100%;
-  height: 4rem;
-  background-color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer p {
-  text-align: center;
-  font-size: 14px;
-  color: grey;
-}
-
 @media (max-width: 992px) {
   header {
     padding: 0.15rem 5%;
@@ -337,7 +258,6 @@ header nav a:hover {
 }
 /* ====================== RESPONSIVE STYLE ====================== */
 @media (max-width: 767px) {
-  /* ====================Navbar Section==================== */
   .menu-btn {
     display: block;
   }
@@ -412,7 +332,7 @@ header nav a:hover {
   }
   /* ====================Home Section==================== */
   .home {
-    padding: 70px 5% 0;
+    padding: 70px 5% 70px;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -435,13 +355,5 @@ header nav a:hover {
   .home-content img {
     height: 13rem;
     width: 13rem;
-  }
-  /* ====================About Section==================== */
-  .section-title h2 {
-    padding-top: 0.8rem;
-    font-size: 30px;
-  }
-  .section-title h2 span {
-    color: #0ef;
   }
 }/*# sourceMappingURL=index.css.map */
