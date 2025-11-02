@@ -225,12 +225,13 @@ header nav a:hover {
 }
 
 .about-container {
-  height: 80vh;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
+  margin-top: 5rem;
 }
 
 .about-picture img {
