@@ -225,12 +225,23 @@ header nav a:hover {
 }
 
 .about-container {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
+}
+
+.about-picture img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #0ef;
+}
+
+.about-content {
+  max-width: 600px;
 }
 
 .skills {

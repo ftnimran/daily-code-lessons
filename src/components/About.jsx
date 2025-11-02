@@ -10,8 +10,18 @@ const About = () => {
       </div>
 
       <div className='about-container'>
-        <div className='about-picture'>Div 1     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic commodi veritatis esse maiores, facilis non voluptate minus id repellendus blanditiis aperiam optio labore ipsam iste quis aspernatur atque, natus eaque?</div>
-        <div className='about-content'>Div 2    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, in obcaecati. Fugit repellat asperiores cum, nisi debitis unde! Ratione reiciendis dolorum fuga voluptatibus culpa iusto ut vitae, dignissimos accusantium porro.</div>
+        <div className='about-picture'><img src={backGround2} alt="Img" /></div>
+
+
+        <div className='about-content'>
+          <h1>I'm Imran Ali</h1>
+          <h5>MERN Stack Developer</h5>
+          <p>I’m a passionate MERN Stack Developer who loves building modern, responsive, and high-performance web applications.
+            I work with MongoDB, Express.js, React, and Node.js to create seamless full-stack solutions that deliver great user experiences.
+            My focus is on writing clean, scalable, and efficient code with attention to design and functionality.
+            I enjoy solving complex problems, learning new technologies, and improving performance with every project.
+            With a balance of creativity and logic, I aim to develop digital products that make a real impact.</p>
+        </div>
       </div>
 
     </section>

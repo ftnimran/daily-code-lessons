@@ -10,7 +10,7 @@
 }
 
 .about-container {
-    height: 100vh;
+    height: 100vh - 20vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,3 +18,17 @@
     position: relative;
 }
 
+.about-picture img {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #0ef;
+    // opacity: 0;
+    // animation: slideLeft 1s ease forwards;
+    // animation-delay: .7s;
+    // transition: 1s ease;
+}
+
+.about-content {
+    max-width: 600px;
+}
