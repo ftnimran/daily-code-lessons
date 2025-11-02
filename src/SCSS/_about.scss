@@ -31,4 +31,25 @@
 
 .about-content {
     max-width: 600px;
+
+    h1 {
+        font-size: 56px;
+        font-weight: 700px;
+        margin: -3px 0;
+        padding-bottom: 15px;
+    }
+
+    h5 {
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .btn-box {
+        margin-top: 40px;
+    }
 }
